@@ -36,6 +36,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 h1 {
@@ -44,17 +46,22 @@ h1 {
 }
 
 h2.top {
-    margin-left: -200px;
+    margin-left: -100px;
+    background-color:#1a1a1a;
+    padding: 10px;
+    margin-right: 970px;
+    border-radius: 10px;
 }
 .songs {
     display: flex;
-    margin-left: -200px;
+    /* margin-left: -200px; */
+    justify-content: center;
     
 }
 
 .song {
-    margin: 50px;
-    margin-top: 0px;
+    margin: 0px 20px;
+    
     text-align: center;
 }
 

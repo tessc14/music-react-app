@@ -10,12 +10,7 @@
     padding-left: -30px;
 }
 
-img {
-    height: 180px;
-}
-
 #bad-guy {
-    
     background-image: url("./bad-guy.png");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
