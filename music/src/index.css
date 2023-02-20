@@ -48,8 +48,12 @@ h1 {
   line-height: 1.1;
 }
 
+h2 {
+    margin-left: -200px;
+}
 .songs {
     display: flex;
+    margin-left: -200px;
     
 }
 
