@@ -1,0 +1,75 @@
+.songSection {
+    /* margin-left: 200px;
+    margin-top: 80px; */
+
+    margin: 10px 200px;
+}
+
+.song {
+    padding-right: -30px;
+    padding-left: -30px;
+}
+
+img {
+    height: 180px;
+}
+
+#bad-guy {
+    
+    background-image: url("./bad-guy.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height:200px;
+    width: 200px;
+    text-align: center;
+}
+
+#when {
+    background-image: url("./when.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height:200px;
+    width: 200px;
+    text-align: center;
+}
+#everything {
+    background-image: url("./everything.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height:200px;
+    width: 200px;
+    text-align: center;
+}
+#lovely {
+    background-image: url("./lovely.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height:200px;
+    width: 200px;
+    text-align: center;
+}
+#tv {
+    background-image: url("./tv.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height:200px;
+    width: 200px;
+    text-align: center;
+}
+
+h3 {
+    padding-bottom: 0px;
+}
+
+h4 {
+    padding-bottom: -20px;
+}
+
+p {
+    padding-top: -50px;
+}

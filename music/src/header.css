@@ -1,0 +1,16 @@
+.header {
+    justify-content: center;
+    text-align: center;
+    background-color:rgba(35, 56, 35, 0.602);
+    border-radius: 20px;
+    border-width: 10px;
+    border-color:rgb(167, 222, 201);
+    border-style:ridge;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+}
+
+#bio {
+    margin: 20px 200px;
+}

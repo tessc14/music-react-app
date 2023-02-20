@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './songs.css'
 
 
 const Songs = () => {
@@ -19,65 +20,82 @@ const Songs = () => {
 
     return (
         <>
-            <h2>TOP SONGS:</h2>
+         <div className="songSection">
+            <h2 className="top">TOP SONGS:</h2>
             <div className="songs">
-                <div className="song">
-                    <h3>Song title</h3>
-                    {favourite && (<p></p>)}
-                    <h4>Album</h4>
+                <div className="song" >
+                    <h3>bad guy</h3>
+                    <div id="bad-guy">
+                        
+                    {/* {favourite && (<p>LIKED</p>)} */}
+                    
+                    </div>
+                    <h4>WWAFAWDWG</h4>
                     <p>release date</p>
                     <button
                         onClick={addFavourite}
                         >Like
                     </button>
                 </div>
-                <div className="song">
-                    <h3>Song title</h3>
-                    <h4>Album</h4>
+                
+                <div className="song" >
+                    <h3>when the party's over</h3>
+                    <div id="when">
+                        
+                    {/* {favourite && (<p>LIKED</p>)} */}
+                    
+                    </div>
+                    <h4>WWAFAWDWG</h4>
                     <p>release date</p>
                     <button
-                        onClick={ addFavourite }
+                        onClick={addFavourite}
                         >Like
                     </button>
                 </div>
-                <div className="song">
-                    <h3>Song title</h3>
-                    <h4>Album</h4>
+                <div className="song" >
+                    <h3>everything i wanted</h3>
+                    <div id="everything">
+                        
+                    {/* {favourite && (<p>LIKED</p>)} */}
+                    
+                    </div>
+                    <h4>WWAFAWDWG</h4>
                     <p>release date</p>
                     <button
-                        onClick={ addFavourite }
+                        onClick={addFavourite}
                         >Like
                     </button>
                 </div>
-                <div className="song">
-                    <h3>Song title</h3>
-                    <h4>Album</h4>
+                <div className="song" >
+                    <h3>lovely</h3>
+                    <div id="lovely">
+                        
+                    {/* {favourite && (<p>LIKED</p>)} */}
+                    
+                    </div>
+                    <h4>WWAFAWDWG</h4>
                     <p>release date</p>
                     <button
-                        onClick={ addFavourite }
+                        onClick={addFavourite}
                         >Like
                     </button>
                 </div>
-                <div className="song">
-                    <h3>Song title</h3>
-                    <h4>Album</h4>
+                <div className="song" >
+                    <h3>tv</h3>
+                    <div id="tv">
+                        
+                    {/* {favourite && (<p>LIKED</p>)} */}
+                    
+                    </div>
+                    <h4>WWAFAWDWG</h4>
                     <p>release date</p>
                     <button
-                        onClick={ addFavourite }
-                        >Like
-                    </button>
-                </div>
-                <div className="song">
-                    <h3>Song title</h3>
-                    <h4>Album</h4>
-                    <p>release date</p>
-                    <button
-                        onClick={ addFavourite }
+                        onClick={addFavourite}
                         >Like
                     </button>
                 </div>
             </div>
-            
+           </div> 
         </>
     )
 }

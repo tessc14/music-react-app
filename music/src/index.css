@@ -21,10 +21,6 @@ body {
     margin: auto;
 }
 
-.App {
-    margin-left: 300px;
-    
-}
 
 h1 {
   font-weight: 500;
@@ -36,8 +32,7 @@ h1:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
+  /* display: flex; */
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -48,7 +43,7 @@ h1 {
   line-height: 1.1;
 }
 
-h2 {
+h2.top {
     margin-left: -200px;
 }
 .songs {
@@ -60,7 +55,7 @@ h2 {
 .song {
     margin: 50px;
     margin-top: 0px;
-    
+    text-align: center;
 }
 
 button {
