@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import {Header, Songs} from './components'
+import {Header, Songs, Form} from './components'
 
 import './index.css'
 import './header.css'
@@ -14,6 +14,7 @@ function App() {
     <div className="App">
         <Header />
         <Songs />
+        <Form />
     </div>
   )
 }
