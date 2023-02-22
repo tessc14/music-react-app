@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './songs.css'
+// import '.../songs.css'
 
 
 const Songs = () => {
@@ -25,7 +25,7 @@ const Songs = () => {
             <div className="songs">
                 <div className="song" >
                     <h3>bad guy</h3>
-                    <div id="bad-guy">
+                    <div className="album-img" id="bad-guy">
                         
                     {/* {favourite && (<p>LIKED</p>)} */}
                     
@@ -40,7 +40,7 @@ const Songs = () => {
                 
                 <div className="song" >
                     <h3>when the party's over</h3>
-                    <div id="when">
+                    <div className="album-img" id="when">
                         
                     {/* {favourite && (<p>LIKED</p>)} */}
                     
@@ -54,7 +54,7 @@ const Songs = () => {
                 </div>
                 <div className="song" >
                     <h3>everything i wanted</h3>
-                    <div id="everything">
+                    <div className="album-img" id="everything">
                         
                     {/* {favourite && (<p>LIKED</p>)} */}
                     
@@ -68,7 +68,7 @@ const Songs = () => {
                 </div>
                 <div className="song" >
                     <h3>lovely</h3>
-                    <div id="lovely">
+                    <div className="album-img" id="lovely">
                         
                     {/* {favourite && (<p>LIKED</p>)} */}
                     
@@ -82,7 +82,7 @@ const Songs = () => {
                 </div>
                 <div className="song" >
                     <h3>tv</h3>
-                    <div id="tv">
+                    <div className="album-img" id="tv">
                         
                     {/* {favourite && (<p>LIKED</p>)} */}
                     

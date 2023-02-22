@@ -1,8 +1,10 @@
-import { useState } from 'react'
-import React from 'react'
-import Header from './Header.jsx'
-import Songs from './Songs.jsx'
+import React, { useState } from 'react'
+
+import {Header, Songs, Form} from './components'
+
 import './index.css'
+import './header.css'
+import './songs.css'
 
 
 function App() {
@@ -12,6 +14,7 @@ function App() {
     <div className="App">
         <Header />
         <Songs />
+        <Form />
     </div>
   )
 }
