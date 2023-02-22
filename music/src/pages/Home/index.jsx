@@ -1,14 +1,18 @@
 import React from 'react'
-import { Header, Songs, Form } from '../../components'
+import { Link } from 'react-router-dom'
+
 
 function Home() {
   return (
-    <div>
-        <h1>Home Page</h1>
-        <Header />
-        <Songs />
-        <Form />
-    </div>
+    <>
+        <h1>Welcome</h1>
+        <ul>Choose an artist:
+            <Link to={'/billie'}>
+               <li>Billie Eilish</li> 
+            </Link>
+            
+        </ul>
+    </>
   )
 }
 

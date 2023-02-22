@@ -11,6 +11,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Pages.Home />}></Route>
+        <Route path="/billie" element={<Pages.Billie />}></Route>
 
 
 

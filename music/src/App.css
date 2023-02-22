@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -12,15 +12,27 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
 }
 
 body {
+    font-family: 'Montserrat';
     background-color:#213547;
     color:#9ca0f9;
     justify-content: center;
-    margin: auto;
+    
 }
-
 
 h1 {
   font-weight: 500;
@@ -32,12 +44,7 @@ h1:hover {
 }
 
 body {
-  /* display: flex; */
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
   padding-bottom: 50px;
-  padding-top: 50px;
 }
 
 h1 {

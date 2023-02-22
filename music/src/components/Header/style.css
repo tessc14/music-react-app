@@ -1,13 +1,11 @@
 .header {
     justify-content: center;
     text-align: center;
-    background-color:#1a1a1a;
-    border-radius: 20px;
-    border-width: 10px;
-    border-color:rgb(167, 222, 201);
-    border-style:ridge;
-    margin-right: 100px;
-    margin-left: 100px;
+    background: rgb(33,53,71);
+    background: linear-gradient(180deg, rgba(33,53,71,1) 0%, rgba(26,26,26,1) 30%, rgba(33,53,71,1) 100%);
+    margin: 0px 0px 50px 0px;
+    
+    padding: 50px 20px;
     
 }
 
