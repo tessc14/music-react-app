@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-// import '.../songs.css'
+import './style.css'
 
 
 const Songs = () => {

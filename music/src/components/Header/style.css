@@ -1,0 +1,14 @@
+.header {
+    justify-content: center;
+    text-align: center;
+    background: rgb(33,53,71);
+    background: linear-gradient(180deg, rgba(33,53,71,1) 0%, rgba(26,26,26,1) 30%, rgba(33,53,71,1) 100%);
+    margin: 0px 0px 50px 0px;
+    
+    padding: 50px 20px;
+    
+}
+
+#bio {
+    margin: 20px 200px;
+}

@@ -1,20 +1,19 @@
-import React, { useState } from 'react'
-
-import {Header, Songs, Form} from './components'
-
-import './index.css'
-import './header.css'
-import './songs.css'
-
+import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import { NavBar } from './layout'
+import * as Pages from './pages'
+import './App.css'
 
 function App() {
-  
-
   return (
     <div className="App">
-        <Header />
-        <Songs />
-        <Form />
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Pages.Home />}></Route>
+        <Route path="/billie" element={<Pages.Billie />}></Route>
+        <Route path="/login" element={<Pages.Login />}/>
+
+      </Routes>
     </div>
   )
 }
