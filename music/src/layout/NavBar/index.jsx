@@ -16,7 +16,7 @@ function NavBar() {
         <nav className="navbar">
             <h2>Music Site</h2>
             <h3><LocationDisplay /></h3>
-            <ul classname="nav-links">
+            <ul className="nav-links">
                 <li>
                     <NavLink to="/">
                         Home
@@ -25,6 +25,11 @@ function NavBar() {
                 <li>
                     <NavLink to="/billie">
                         Billie
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/login">
+                        Login
                     </NavLink>
                 </li>
             </ul>

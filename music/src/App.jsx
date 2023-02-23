@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { NavBar } from './layout'
 import * as Pages from './pages'
 import './App.css'
-// import {Header, Songs, Form} from './components'
 
 function App() {
   return (
@@ -12,16 +11,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Pages.Home />}></Route>
         <Route path="/billie" element={<Pages.Billie />}></Route>
-
-
+        <Route path="/login" element={<Pages.Login />}/>
 
       </Routes>
-
-
-
-        {/* <Header />
-        <Songs />
-        <Form /> */}
     </div>
   )
 }

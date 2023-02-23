@@ -1,0 +1,19 @@
+.form-div{
+    background-color: #1f1f1f;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 100px 300px;
+}
+
+.submit-btn {
+    margin: 20px;
+    border-color:#9ca0f9;
+}
+
+.login-input{
+    color: #1f1f1f;
+    background-color: #9ca0f9;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+}
