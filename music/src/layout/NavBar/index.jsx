@@ -1,32 +1,36 @@
 import React from 'react'
-import { NavLink, useLocation } from 'react-router-dom'
+import { useNavigate, NavLink, useLocation } from 'react-router-dom'
 import { useAuth } from '../../contexts'
 import './style.css'
 
 const LocationDisplay = () => {
     
     const location = useLocation()
-    if (location.pathname ==  "/") {
+    if (location.pathname ==  "/home") {
         return <span>Home Page</span>
-    } else if (location.pathname == "/login") {
+    } else if (location.pathname == "/") {
         return <span>Log in</span>
     }
     return <span>{location.pathname}</span>
 }
 
-const UsernameDisplay = () => {
-    const {user} = useAuth()
-    const location = useLocation()
-    if (location.pathname == "/" || location.pathname == "/billie"){
-        return <span>{user}'s account</span>
+    const UsernameDisplay = () => {
+        // const {user} = useAuth()
+        const location = useLocation()
+        if (location.pathname == "/" || location.pathname == "/billie"){
+            return <span></span>
+        }
     }
-}
 
 function NavBar() {
-    const { setUser } = useAuth()
+    const { token, setToken } = useAuth()
+    const Navigate = useNavigate()
 
-    const resetUser = () => {
-        setUser('')
+    const LogOut = () => {
+        setToken('')
+        window.localStorage.removeItem("token")
+        Navigate('/')
+        console.log("logged out!")  
     }
     
   return (
@@ -37,7 +41,7 @@ function NavBar() {
             <h3><UsernameDisplay/></h3>
             <ul className="nav-links">
                 <li>
-                    <NavLink to="/">
+                    <NavLink to="/home">
                         Home
                     </NavLink>
                 </li>
@@ -47,12 +51,12 @@ function NavBar() {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/login">
-                        <button onClick={resetUser}>
+                    {!token ? 
+                        <button onClick={LogOut}>
                             Logout
                         </button>
-                        
-                    </NavLink>
+                        : <NavLink to="/"><button>Log in</button></NavLink>}
+                    
                 </li>
             </ul>
 
